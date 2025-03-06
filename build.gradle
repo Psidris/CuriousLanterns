@@ -151,6 +151,8 @@ dependencies {
     
     //runtimeOnly fg.deobf("curse.maven:cyclic-239286:3990512")
     
+    //runtimeOnly fg.deobf("curse.maven:hardcore-torches-forge-576846:6232004")
+    
     //runtimeOnly fg.deobf("curse.maven:additional-lanterns-501590:3871897")
     //runtimeOnly fg.deobf("curse.maven:supermartijn642s-core-lib-454372:3910759")
     

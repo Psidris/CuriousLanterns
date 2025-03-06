@@ -29,6 +29,11 @@ public class CuriousLanterns {
 			"suppsquared:crimson_lantern",
 			"suppsquared:brass_lantern",
 			
+			"hardcore_torches:unlit_lantern",
+			"hardcore_torches:lit_lantern",
+			"hardcore_torches:unlit_soul_lantern",
+			"hardcore_torches:lit_soul_lantern",
+			
 			"cyclic:gold_lantern",
 			"cyclic:gold_soul_lantern",
 			"cyclic:copper_lantern",
