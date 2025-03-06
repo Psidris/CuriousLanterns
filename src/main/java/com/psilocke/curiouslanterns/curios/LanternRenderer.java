@@ -12,11 +12,13 @@ import net.minecraft.client.renderer.entity.ItemRenderer;
 import net.minecraft.client.renderer.entity.RenderLayerParent;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.resources.model.BakedModel;
+import net.minecraft.core.Direction;
 import net.minecraft.util.Mth;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemDisplayContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.LanternBlock;
 import top.theillusivec4.curios.api.SlotContext;
 import top.theillusivec4.curios.api.client.ICurioRenderer;
 
@@ -64,7 +66,7 @@ public class LanternRenderer implements ICurioRenderer {
             matrixStack.mulPose(Axis.ZP.rotationDegrees(-f3 / 2.0F));
 		}
 		matrixStack.scale(0.5f, 0.5f, 0.5f);
-		BakedModel lantern = blockRenderer.getBlockModel(Block.byItem(stack.getItem()).defaultBlockState());
+		BakedModel lantern = blockRenderer.getBlockModel(Block.byItem(stack.getItem()).defaultBlockState().setValue(LanternBlock.HANGING, true));
 		MultiBufferSource.BufferSource buffer = Minecraft.getInstance().renderBuffers().bufferSource();
 		//itemRenderer.render(stack, ItemTransforms.TransformType.HEAD, true, matrixStack, buffer, light, OverlayTexture.NO_OVERLAY, lantern);
 		itemRenderer.render(stack, ItemDisplayContext.HEAD, true, matrixStack, buffer, light, OverlayTexture.NO_OVERLAY, lantern);
