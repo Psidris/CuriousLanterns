@@ -50,6 +50,22 @@
       "required": false
     },
     {
+      "id": "hardcore_torches:unlit_lantern",
+      "required": false
+    },
+    {
+      "id": "hardcore_torches:lit_lantern",
+      "required": false
+    },
+    {
+      "id": "hardcore_torches:unlit_soul_lantern",
+      "required": false
+    },
+    {
+      "id": "hardcore_torches:lit_soul_lantern",
+      "required": false
+    },
+    {
       "id": "mcwlights:striped_lantern",
       "required": false
     },
@@ -75,6 +91,14 @@
     },
     {
       "id": "mcwlights:bell_lantern",
+      "required": false
+    },
+    {
+      "id": "quark:paper_lantern",
+      "required": false
+    },
+    {
+      "id": "quark:paper_lantern_sakura",
       "required": false
     },
     {
@@ -491,14 +515,6 @@
     },
     {
       "id": "skinnedlanterns:slime_soul_lantern_block",
-      "required": false
-    },
-    {
-      "id": "quark:paper_lantern",
-      "required": false
-    },
-    {
-      "id": "quark:paper_lantern_sakura",
       "required": false
     },
     {

@@ -24,16 +24,24 @@ public class CuriousLanterns {
 	public static String[] lanterns = {
 			"minecraft:lantern",
 			"minecraft:soul_lantern",
+			
 			"supplementaries:copper_lantern",
 			"supplementaries:crimson_lantern",
 			"supplementaries:silver_lantern",
 			"supplementaries:brass_lantern",
 			"supplementaries:lead_lantern",
+			
 			"cyclic:gold_lantern",
 			"cyclic:gold_soul_lantern",
 			"cyclic:copper_lantern",
 			"cyclic:copper_soul_lantern",
 			"cyclic:netherite_lantern",
+			
+			"hardcore_torches:unlit_lantern",
+			"hardcore_torches:lit_lantern",
+			"hardcore_torches:unlit_soul_lantern",
+			"hardcore_torches:lit_soul_lantern",
+			
 			"mcwlights:striped_lantern",
 			"mcwlights:covered_lantern",
 			"mcwlights:chain_lantern",
@@ -41,8 +49,6 @@ public class CuriousLanterns {
 			"mcwlights:festive_lantern",
 			"mcwlights:cross_lantern",
 			"mcwlights:bell_lantern",
-			"hardcore_torches:lit_lantern",
-			"hardcore_torches:unlit_lantern"
 	};
 	
 	public static String[] medium_lanterns = {
