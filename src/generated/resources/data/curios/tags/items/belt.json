@@ -61,6 +61,22 @@
       "required": false
     },
     {
+      "id": "hardcore_torches:lit_lantern",
+      "required": false
+    },
+    {
+      "id": "hardcore_torches:unlit_lantern",
+      "required": false
+    },
+    {
+      "id": "hardcore_torches:lit_soul_lantern",
+      "required": false
+    },
+    {
+      "id": "hardcore_torches:unlit_soul_lantern",
+      "required": false
+    },
+    {
       "id": "mcwlights:striped_lantern",
       "required": false
     },

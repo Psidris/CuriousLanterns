@@ -41,6 +41,11 @@ public class CuriousLanterns {
 			"cyclic:copper_soul_lantern",
 			"cyclic:netherite_lantern",
 			
+			"hardcore_torches:lit_lantern",
+			"hardcore_torches:unlit_lantern",
+			"hardcore_torches:lit_soul_lantern",
+			"hardcore_torches:unlit_soul_lantern",
+			
 			"mcwlights:striped_lantern",
 			"mcwlights:covered_lantern",
 			"mcwlights:chain_lantern",
