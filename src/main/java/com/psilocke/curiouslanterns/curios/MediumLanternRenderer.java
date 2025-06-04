@@ -18,6 +18,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.LanternBlock;
+import net.minecraft.world.level.block.state.BlockState;
 import top.theillusivec4.curios.api.SlotContext;
 import top.theillusivec4.curios.api.client.ICurioRenderer;
 
@@ -66,7 +67,8 @@ public class MediumLanternRenderer implements ICurioRenderer {
             matrixStack.mulPose(Vector3f.ZP.rotationDegrees(-f3 / 2.0F));
 		}
 		matrixStack.scale(0.33f, 0.33f, 0.33f);
-		BakedModel lantern = blockRenderer.getBlockModel(Block.byItem(stack.getItem()).defaultBlockState().setValue(LanternBlock.HANGING, true));
+		BlockState state = Block.byItem(stack.getItem()).defaultBlockState();
+		BakedModel lantern = state.hasProperty(LanternBlock.HANGING) ? blockRenderer.getBlockModel(state.setValue(LanternBlock.HANGING, true)) : blockRenderer.getBlockModel(state);
 		MultiBufferSource.BufferSource buffer = Minecraft.getInstance().renderBuffers().bufferSource();
 		itemRenderer.render(stack, ItemTransforms.TransformType.HEAD, true, matrixStack, buffer, light, OverlayTexture.NO_OVERLAY, lantern);
 		matrixStack.popPose();
