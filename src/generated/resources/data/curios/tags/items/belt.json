@@ -3415,6 +3415,46 @@
     {
       "id": "additionallanterns:black_weathered_copper_lantern",
       "required": false
+    },
+    {
+      "id": "arcanelanterns:boreal_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:brilliant_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:cloud_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:containing_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:feral_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:life_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:love_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:wailing_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:warding_lantern",
+      "required": false
+    },
+    {
+      "id": "arcanelanterns:withering_lantern",
+      "required": false
     }
   ]
 }
